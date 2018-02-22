@@ -13,6 +13,7 @@ public class Motocicleta extends Carro {
     public void datosVehiculo() {
         super.datosVehiculo();
         System.out.println("casco "+isCasco()+" gas: "+ getCantGazolina());
+
     }
 
     public boolean isCasco() {

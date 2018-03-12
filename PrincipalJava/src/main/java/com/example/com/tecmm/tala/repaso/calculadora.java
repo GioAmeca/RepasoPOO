@@ -6,8 +6,9 @@ package com.example.com.tecmm.tala.repaso;
 
 public class calculadora {
     double res;
-    public static void main(String args[]){
 
+    public static void main(String args[]){
+        System.out.println("dfg");
         calculadora calc=new calculadora();
         calc.suma(13.4,39.2,78.9,98.4);
         calc.resta(1.2,8.9,7.6,6.7);
@@ -16,6 +17,7 @@ public class calculadora {
         calc.multiplicacion(6.9,8.9,4.9,1.9);
         calc.multiplicacion(8.9,8,3);
     }
+
     void suma(double a ,double b,double c,double d){
         res=a+b+c+d;
     }

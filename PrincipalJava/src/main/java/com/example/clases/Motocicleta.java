@@ -5,7 +5,7 @@ package com.example.clases;
  */
 
 
-public class Motocicleta extends Carro {
+public class Motocicleta extends Carro implements OperacionesDatos {
    boolean casco;
    int cantGazolina;
 
@@ -30,6 +30,21 @@ public class Motocicleta extends Carro {
 
     public void setCantGazolina(int cantGazolina) {
         this.cantGazolina = cantGazolina;
+    }
+
+    @Override
+    public void limpiar() {
+
+    }
+
+    @Override
+    public void aumentar() {
+
+    }
+
+    @Override
+    public void verificar() {
+
     }
 }
 
